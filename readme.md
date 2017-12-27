@@ -1,4 +1,4 @@
-#Recommendation Engine
+# Recommendation Engine
 
 This project contains code supporting the blog at url => https://humansandai.wordpress.com/2017/12/26/recommendation-engine-overview-for-dummies/
 
@@ -21,11 +21,12 @@ from the _requirements.txt_ file
 * Right and click on 'Run' option on the _item_item_sim_recommender.py_ file from the project window.
 
 ### Running from the Terminal
-* Python 2.x and PIP should already be installed on the machine.
+* Python 2.x and pip should already be installed on the machine.
 * Install the requirements from the _requirements.txt_ file, suing the command
 ```
 pip install -r requirements.txt
 ```
+You might have to use sudo, if the user does not have enough permissions to install packages.
 * Execute the python file using the command
 ```
 python item_item_sim_recommender.py
